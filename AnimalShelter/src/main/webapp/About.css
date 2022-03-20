@@ -1,0 +1,67 @@
+.body{
+	background-color: #F8E0F1;
+}
+
+/**Définir les polices**/
+
+@font-face {
+    font-family: 'Animal-Paw';
+    src: url('ressources/Animal-Paw.ttf');
+}
+
+@font-face {
+    font-family: 'Cute-smile';
+    src: url('ressources/CuteSmileDemoRegular.ttf');
+}
+
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('ressources/Mont-Heavy.otf');
+}
+
+@font-face {
+    font-family: 'montserrat-light';
+    src: url('ressources/MontserratAlternates-Light.otf');
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('ressources/Montserrat-Medium.otf');
+}
+
+@font-face {
+    font-family: 'montserrat-extrabold';
+    src: url('ressources/Montserrat-ExtraBold.otf');
+}
+/********************************************************************/
+
+body {
+    background-color: #F8E0F1;
+}
+h1 {
+    color: #1E1C24;
+    font-family: montserrat-medium ;
+    text-align: center;
+    
+}
+
+.big-titles {
+    color: #1E1C24;
+    font-family: montserrat-medium;
+    text-align: left;
+}
+
+p {
+    text-align: center;
+    font-family: montserrat-light;
+}
+
+.row {
+    display: flex;
+}
+.column{
+    flex: 33,33%;
+    padding: 10px;
+    font-family: Cute-smile;
+
+}
