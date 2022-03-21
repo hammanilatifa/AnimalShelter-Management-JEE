@@ -2,7 +2,7 @@
 	background-color: #F8E0F1;
 }
 
-/**Définir les polices**/
+/**DÃ©finir les polices**/
 
 @font-face {
     font-family: 'Animal-Paw';
@@ -56,12 +56,15 @@ p {
     font-family: montserrat-light;
 }
 
-.row {
+.rows {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
 }
-.column{
-    flex: 33,33%;
-    padding: 10px;
-    font-family: Cute-smile;
 
+.column{
+    display: inline-block;
+    font-family: Cute-smile;
+    font-size: small;
 }
