@@ -33,6 +33,66 @@
     font-family: 'montserrat-extrabold';
     src: url('ressources/Montserrat-ExtraBold.otf');
 }
+
+/********************************Polices Poppins************************************/
+
+@font-face {
+    font-family: 'poppins-thin';
+    src: url('ressources/Poppins-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('ressources/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-SemiBold';
+    src: url('ressources/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-SemiBold-Italic';
+    src: url('ressources/Poppins-SemiBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-Bold';
+    src: url('ressources/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-ExtraBold';
+    src: url('ressources/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-ExtraBold-Italic';
+    src: url('ressources/Poppins-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-Black';
+    src: url('ressources/Poppins-Black.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-Black-Italic';
+    src: url('ressources/Poppins-BlackItalic.ttf');
+}
+/********************************************************************/
+
+/*****************************Animations******************************/
+@keyframes L2R {
+    from { left: -5px;}
+    to { right: 100px;}
+}
+
+@-webkit-keyframes L2R{
+    from { left: -5px;}
+    to { right: 100px;} 
+}
 /********************************************************************/
 
 body {
@@ -40,31 +100,60 @@ body {
 }
 h1 {
     color: #1E1C24;
-    font-family: montserrat-medium ;
+    font-family: poppins-ExtraBold ;
     text-align: center;
     
+    animation: L2R 5s;
+    animation-delay: 2s;
+    -webkit-animation: L2R 5s;
+    -webkit-animation-delay: 2s;
+
 }
 
 .big-titles {
     color: #1E1C24;
-    font-family: montserrat-medium;
+    font-family: poppins-SemiBold-Italic;
     text-align: left;
 }
 
 p {
     text-align: center;
-    font-family: montserrat-light;
+    font-family: poppins-Thin;
 }
 
 .rows {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .column{
     display: inline-block;
     font-family: Cute-smile;
-    font-size: small;
+    font-size: medium;
+    align-content: center;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration : none;
+}
+
+.projects-titles {
+    font-family: montserrat-medium;
+    font-size: medium;
+    text-align: left;
+}
+
+#inpt-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.icon{
+    float: left;
+    width: 5%;
 }
